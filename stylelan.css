@@ -1,0 +1,187 @@
+@font-face {
+    src: url(Montserrat/static/Montserrat-ExtraLight.ttf);
+    font-family: 'Montserrat-ExtraLight';    
+    font-weight: normal;}
+
+body {
+    font-family: 'Montserrat-ExtraLight'; 
+    margin:0;
+    width: 100%;   
+}               
+nav{
+    background-color: #007BFF;
+    align-items: center;
+    
+}
+
+table{
+    width: 100%;
+    
+}
+
+/* Limita o tamanho da tabela para ter scroll */
+.wrapper {
+    width: 300px;
+    overflow-x: auto;
+  }
+  
+  
+  /*
+  Gira a <div> e a <table> em 180°
+  ou seja, a div gira 180° e a
+  a table gira 360°
+  */
+  .wrapper,
+  .content {
+    transform: rotate(180deg);
+  }
+
+
+.teste{
+    width: 5%;
+}
+
+.nav-item{
+    color: white;
+}
+.imglogo{
+    width: 10%;
+    align-items: center;
+}
+        
+.icon{
+    color:white;
+}
+.icon:hover{
+    color:black;
+}
+label, select, input{
+    font-size: 1em;
+    align-items: jutify;
+}
+
+.w3-container{
+    margin:3em;
+    border-radius: 1em;
+    background-color: white;
+
+}
+
+form{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.box{
+    font-size: 1em;
+    border: none;
+    border-bottom: solid gray 1px;
+
+}
+.btnFinais{
+    padding: 0.7em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin:1em;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 0.5em;
+}
+.btnFinais:hover{
+    border: none;
+    border-bottom: solid 1px black;
+    background: white;
+    font-weight: bold;
+    color: black;
+}
+.reset{
+    background-color: #007BFF;
+}
+button{
+    background: #007BFF;
+}
+
+#descricao{
+    font-size: 1em;
+    
+}
+.btnAdv{
+    color:white;
+    border: none;
+    padding: 1em;
+    margin: 1em;
+    font-size:1.2em;
+    cursor: pointer;
+    border-radius: 1em;
+
+}
+.btnAdv:hover{
+    color: black;
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: white;
+
+}
+.linkvoltar:hover{
+    background: white;
+}
+
+
+/*EDIÇÃO LISTAR*/
+
+.edition{
+    padding: 3em;
+}
+
+@media screen and (max-width:950px){
+
+    .imglogo{
+        width: 20%;}
+        form{
+            margin:0;
+        }
+        .edicao{
+            font-size: 1em;
+        }
+
+        .btnFinais{
+            font-size: 1em;
+        }
+        nav{
+            font-size: 0.7em;
+        }
+        .box{
+            width: 100%;
+        }
+        .btnFinais{
+            align-items: center;
+        }
+        .btnAdd{
+            font-size: 0.8em;
+        }
+}
+
+
+
+/*CSS ADVERTENCIA*/
+
+.addAdv{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+.btnAdd{
+    background-color: #007BFF;
+    align-items: right;
+    border: none;
+    color: white;
+    border-radius: 1em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+.btnAdd:hover{
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+}

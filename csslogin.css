@@ -1,0 +1,74 @@
+body{
+    background:  #007BFF;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat-ExtraLight'; 
+}
+
+.link:hover{
+cursor:pointer;
+color: black;
+}
+
+label, input{
+   font-family: 'Montserrat-ExtraLight'; 
+}
+label{
+    font-size:1.3em;
+    font-weight: bold;
+    color:#fff;
+}
+input, .btnEntrar{
+   
+    padding: 1em;
+    
+    text-align: left;
+    font-size: 1.5em;
+    width: 50%;
+    border: none;
+    border-bottom: unset;
+    border-radius: 0.2rem;
+
+}
+.btnEntrar{
+   font-size: 1em;
+   text-align: center;
+   color:#007BFF;
+   font-weight: bold;
+}
+
+
+
+@font-face {
+    src: url(Montserrat/static/Montserrat-ExtraLight.ttf);
+    font-family: 'Montserrat-ExtraLight';    
+    font-weight: normal;}
+@media screen and (max-width: 950px){
+
+
+    .nsglogo {
+        width: 100%;
+    }
+    body{
+        margin-top: 7em;
+    }
+input{
+    font-size: 0.9em;
+    width: 70%;
+
+}
+label{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+.container{
+    border-radius: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+}

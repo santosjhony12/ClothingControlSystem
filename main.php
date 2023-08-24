@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" type="text/css" href="load.css">
+ <link rel="stylesheet" type="text/css" href="Style/load.css">
 
 
     <title>Menu</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Style/style.css" />
     <link rel="icon" type="image/png" href="IMG/favicon.ico" />
 
   </head>
@@ -27,7 +27,6 @@
        </div>
     </div>
 </div>
-<script src="preloader.js"></script>
 
 
     <header>
@@ -47,17 +46,15 @@
         </ul>
       </nav>
     </header>
-    <script src="mobile-navbar.js"></script>
 
 
-
+<script src="JS/preloader.js"></script>
+<script src="JS/mobile-navbar.js"></script>
 
     <?php 
        echo '<div class="container main" >';
 
-    echo '<a href="box.php"><button type="button" class="margin-btn w3-card-4"><img src="IMG/macacao1.png" class="icons"><br>BOX</button></a><br>';
-    echo '<a href="lehr.php"><button type="button" class="margin-btn w3-card-4"><img src="IMG/macacao1.png" class="icons"><br>LEHR</button></a><br>';
-    echo '<a href="tanglass.php"><button type="button" class="margin-btn w3-card-4"><img src="IMG/macacao1.png" class="icons"><br>TANGLASS</button></a><br>';
+    echo '<a href="box.php"><button type="button" class="margin-btn w3-card-4"><img src="IMG/macacao1.png" class="icons"><br>FAZER LANÇAMENTOS</button></a><br>';
     echo '<a href="listar.php"><button type="button" class="btn btn-primary btnlist margin-btn w3-card-4"><img src="IMG/list1.png" class="icons"><br>LISTAR</button></a><br>';
     echo '<a href="contagem.php"><button type="button"  class="margin-btn w3-card-4"><img src="IMG/contagem1.png" class="icons"><br>CONTAGEM</button></a><br>';
     /*adicionei 23/10*/ 
@@ -65,24 +62,6 @@
     echo '<a href="advertencia.php"><button type="button" class="margin-btn w3-card-4"><img src="IMG/advertencia.png" class="icons"><br>ADVERTÊNCIAS</button></a><br>';
     
     echo '</div>';
-       
-
-
-
-
-
-
 ?>
-<footer class="w3-center" style="color:gray"><h6 style="font-size: 0.8em">©Copyright - Jhony Santos e Raiane Fraga (Aprendizes 2022)</h6></footer>
-
-
-
-
-
-
-
-
-
-
   </body>
 </html>
